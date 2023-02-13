@@ -1,0 +1,143 @@
+html {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	font-family: arial;
+}
+
+body {
+	margin: 0;
+	background-color:  white;
+	padding: 0;
+	width: 100%;
+	font-size: 20px;
+}
+ 
+ /*menu superior*/
+.topnav {
+	background-color: #10A6E7;
+	overflow: hidden;
+	position: sticky;
+	position: -webkit-sticky; /*Safari*/
+	top: 0;
+	box-shadow: 0px 3px 5px #00000038;
+	width: 100%;
+	position: fixed;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a.right {
+	float: right;
+}
+
+.topnav a:hover {
+	background-color: #FFA726;
+	color: black;
+}
+
+.topnav a.active {
+	background-color: #FFA726;
+	color: rgb(18, 18, 18);
+}
+
+.topnav .icon {
+	display: none;
+}
+
+header {
+	height: 500px;
+	text-align: center;
+	background-color: lightblue;
+}
+
+/* Nome da Empresa + imagem de fundo */
+header h1 {
+	padding-top: 10%;
+	font-size: 40px;
+}
+
+/*Funções INMETRO*/
+nav {
+	margin: 0;
+	padding: 5%;
+	height: 400px;
+	text-align: center;
+	background-color: lightgrey;
+}
+
+/* Localização */
+section {
+	margin: 0;
+	padding: 5%;
+	height: 400px;
+	text-align: center;
+	background-color: lightseagreen;
+}
+
+/* Sobre a empresa */
+article {
+	margin: 0;
+	padding: 5%;
+	height: 400px;
+	text-align: center;
+	background-color: lightgoldenrodyellow;
+}
+
+/* Contato */
+summary {
+	margin: 0;
+	padding: 5%;
+	height: 400px;
+	text-align: center;
+	background-color: lightgreen;
+}
+
+summary button {
+	background-color: #00cc00;
+	font-size: 20px;
+	width: 25%;
+	height: 70px;
+	border: 1px solid black;
+	box-shadow: -1px 1px 1px 1px #888888;
+	border-radius: 15px;
+	transition: 0.2s;
+}
+
+summary button:hover {
+	background-color: #1aff1a;
+	font-size: 30px;
+	width: 30%;
+	height: 80px;
+	box-shadow: -5px 10px 10px 5px #888888;
+	border-radius: 20px;
+	transition: 0.2s;
+}
+
+summary button:active {
+	background-color: ##00ff00;
+	font-size: 25px;
+	width: 28%;
+	height: 75px;
+	box-shadow: -3px 8px 8px 2px #888888;
+	border-radius: 18px;
+	transition: 0.2s;
+}
+
+/* Rodapé com direitos autorais, etc */
+footer {
+	margin: 0;
+	padding: 5%;
+	height: 400px;
+	text-align: center;
+	color: white;
+	background-color: black;
+}
